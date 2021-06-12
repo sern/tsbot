@@ -1,0 +1,3 @@
+[submodule "extern/NeteaseCloudMusicApi"]
+	path = extern/NeteaseCloudMusicApi
+	url = https://github.com/Binaryify/NeteaseCloudMusicApi

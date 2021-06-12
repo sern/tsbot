@@ -1,6 +1,3 @@
-TOKEN = "ODQ0Mzc5MzI5OTMyMjk2MjEy.YKRjiA.zeVvXJiFV4zXHZK6v2B5Yc7tpNY"
-
-
 import discord
 import os
 import time
