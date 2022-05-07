@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/tianyi/.pyenv/versions/3.9.5/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

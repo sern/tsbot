@@ -12,10 +12,13 @@ async function main() {
     });
     const url = result.body.data[0].url;
 
+    let lyrics = null;
     result = await lyric({
       id: +id,
     });
-    lyrics = result.body.lrc.lyric;
+    if (result.body.lrc) {
+      lyrics = result.body.lrc.lyric;
+    }
 
     result = await song_detail({
       ids: id,
